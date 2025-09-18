@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Визитка</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      color: #333;
+    }
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 350px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .card h1 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+    .card p {
+      font-size: 16px;
+      color: #555;
+    }
+    .links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .links a {
+      text-decoration: none;
+      background: #4a90e2;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      background: #357ABD;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Фото">
+    <h1>Твоё Имя</h1>
+    <p>Твоя профессия или слоган</p>
+    <div class="links">
+      <a href="tel:+79999999999">Позвонить</a>
+      <a href="mailto:example@mail.com">Почта</a>
+      <a href="https://t.me/username" target="_blank">Telegram</a>
+    </div>
+  </div>
+</body>
+</html>
